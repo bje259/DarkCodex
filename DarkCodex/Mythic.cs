@@ -499,6 +499,7 @@ namespace DarkCodex
             var limitless = Helper.ToRef<BlueprintUnitFactReference>("5cb58e6e406525342842a073fb70d068"); //LimitlessRage
 
             rage.GetComponent<ActivatableAbilityResourceLogic>().m_FreeBlueprint = limitless;
+            rage2.GetComponent<ActivatableAbilityResourceLogic>().m_FreeBlueprint = limitless;
             rage2.GetComponent<AbilityResourceLogic>().ResourceCostDecreasingFacts.Add(limitless);
         }
 
